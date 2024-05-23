@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Password_Validator/static/css/main.04fddf25.css",
+    "main.js": "/Password_Validator/static/js/main.8bd457a9.js",
+    "index.html": "/Password_Validator/index.html",
+    "main.04fddf25.css.map": "/Password_Validator/static/css/main.04fddf25.css.map",
+    "main.8bd457a9.js.map": "/Password_Validator/static/js/main.8bd457a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04fddf25.css",
+    "static/js/main.8bd457a9.js"
+  ]
+}
