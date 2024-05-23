@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body
+{
+  background-color: black;
+}
+.box
+{
+  border: 2px solid white;
+  color: white;
+  width: 30%;
+  height: 30vh;
+  text-align: center;
+  margin: auto;
+  margin-top: 30vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.pass-input
+{
+  width: 20vw;
+  height: 3vh;
+}
+.red
+{
+  color: red;
+}
+.orange
+{
+  color: orange;
+}
+.green
+{
+  color: green;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* Media queries */
+
+/* Phone portrait */
+@media only screen and (max-width: 600px) {
+  .box {
+     width: 90vw;
+     height: 35vh;
+     position: relative;
+     left: 0vw;
+     top: 2vh;
+   }
+  h2
+  {
+    font-size: 7vw;
+  }
+  .pass-input
+  {
+    width: 50vw;
+    font-size: 5vw;
+  }
+  small
+  {
+    font-size: 5vw;
+  }
+ }
+ 
+ /* Phone landscape */
+ @media only screen and (max-width: 900px) and (orientation: landscape) {
+  .box {
+    width: 90vw;
+    height: 30vh;
+    position: relative;
+    left: 0vw;
+    top: 2vh;
+  }
+ h2
+ {
+   font-size: 8vw;
+ }
+ .pass-input
+ {
+   width: 50vw;
+   font-size: 6vw;
+ }
+ small
+ {
+   font-size: 5vw;
+ }
+ }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .box {
+     width: 70vw;
+     height: 30vh;
+     position: relative;
+     left: 0vw;
+     top: 5vh;
+   }
+   h2 {
+     font-size: 4vw;
+   }
+  .pass-input {
+     width: 40vw;
+     font-size: 3vw;
+   }
+   small {
+     font-size: 3vw;
+   }
+ }
